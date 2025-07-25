@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pricing-card {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.pricing-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pricing-price {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 15px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-features li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pricing-btn {
+  background: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.pricing-btn:hover {
+  background: #1d4ed8;
+}
+</style>
+</head>
+<body>
+
+<!-- Basic Plan Card -->
+<div class="pricing-card">
+  <h2 class="pricing-title">Basic Plan</h2>
+  <p class="pricing-price">$9.99 /month</p>
+
+  <ul class="pricing-features">
+    <li>1 GB Storage</li>
+    <li>Basic Support</li>
+    <li>All Core Features</li>
+  </ul>
+
+  <button class="pricing-btn">Start Trial</button>
+</div>
+
+<!-- Premium Plan Card (example of reuse) -->
+<div class="pricing-card" style="margin-top: 30px;">
+  <h2 class="pricing-title">Premium Plan</h2>
+  <p class="pricing-price">$19.99 /month</p>
+
+  <ul class="pricing-features">
+    <li>10 GB Storage</li>
+    <li>Priority Support</li>
+    <li>All Premium Features</li>
+  </ul>
+
+  <button class="pricing-btn">Start Trial</button>
+</div>
+
+</body>
+</html>
